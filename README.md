@@ -35,6 +35,14 @@ Playwright automatically starts an isolated local preview server. Set `PLAYWRIGH
 
 Recordings are unmodified syllables by Chen Wang, from `hugolpz/audio-cmn`. Source manifests in `public/` include commit-pinned original URLs, attribution, byte counts and SHA-256 hashes. Original attribution is preserved in `public/credits/`. Asset-fetch scripts under `scripts/` download the originals from upstream.
 
+## Interest-led activities for roughly ages 8–10
+
+The original beginner curriculum remains available. New activities add two word/sentence games (12 word clues and 8 four-part sentence puzzles) and a reading library of eight original short texts in three difficulty bands. Each article has three text-grounded comprehension checks, optional glossary pinyin, word explanations, larger text, evidence hints and an open-ended discussion prompt.
+
+Reading difficulty is not an official school grade or assessment. Article completion means completing that article's practice questions, including assisted retries; it does not certify reading mastery. No full-article audio is supplied or claimed. Sentence puzzles explicitly practise one prompted word order, not every possible grammatical formulation.
+
+Reading and challenge records use separate versioned local-storage keys without rewriting existing beginner progress. Wrong answers can be retried; hints and rereading have no penalty. There are no timers, rankings or recorded discussion answers. The parent reset clears the new records as well. Browser tests read and complete all eight articles, every word/sentence puzzle and the new mobile/dark flows.
+
 ## Learning limitations
 
 This is introductory learning material, not a complete official Mandarin/primary-school curriculum or an official textbook mapping. Adult guidance is recommended. Isolated-character citation pronunciations do not teach all contextual neutral tones or tone-sandhi rules; screen tracing does not replace pencil-and-paper practice.
