@@ -1,0 +1,158 @@
+/* Light colours are preserved as exact fallbacks; dark colours are role-specific. */
+:root{color-scheme:light;}
+:root[data-theme="dark"]{color-scheme:dark;background:#19221f;
+--edge-436956:#435347;
+--edge-aabc94:#435347;
+--edge-adbe96:#435347;
+--edge-ae745c:#554b4d;
+--edge-b17f3b:#554b4d;
+--edge-b3c3a0:#435347;
+--edge-baca9f:#435347;
+--edge-c3d3b2:#435347;
+--edge-c4cdb4:#435347;
+--edge-c7d3b5:#435347;
+--edge-cbd3bf:#435347;
+--edge-d0dcbb:#435347;
+--edge-d3dbc5:#435347;
+--edge-d4d9c5:#435347;
+--edge-d5b38f:#554b4d;
+--edge-d7dcca:#435347;
+--edge-d7deca:#435347;
+--edge-d7dfc9:#435347;
+--edge-d9e1cb:#435347;
+--edge-dce1ce:#435347;
+--edge-dce1cf:#435347;
+--edge-dce2cc:#435347;
+--edge-dce2cd:#435347;
+--edge-dce2ce:#435347;
+--edge-dce3cc:#435347;
+--edge-dce3ce:#435347;
+--edge-dde2d0:#435347;
+--edge-dfe4cc:#435347;
+--edge-dfe4d3:#435347;
+--edge-e0ddd0:#435347;
+--edge-e0e3d3:#435347;
+--edge-e1e2d5:#435347;
+--edge-e1e3d6:#435347;
+--edge-e3e5d6:#435347;
+--edge-e4e7d8:#435347;
+--edge-fffdf5:#435347;
+--shadow-345743:#101713;
+--shadow-50604220:#101713;
+--shadow-e5e9d8:#101713;
+--shadow-e8e8dc:#101713;
+--shadow-e9eadd:#101713;
+--shadow-ecebdd:#101713;
+--surface-365b48:#365b48;
+--surface-436956:#436956;
+--surface-557662:#557662;
+--surface-dfe2d6:#29362e;
+--surface-e0e9d1:#29362e;
+--surface-e3eae8:#29362e;
+--surface-e5edd9:#29362e;
+--surface-e6ebdc:#29362e;
+--surface-e6eddc:#29362e;
+--surface-e8eed9:#29362e;
+--surface-e8eedc:#29362e;
+--surface-e8efdc:#29362e;
+--surface-e9efdd:#29362e;
+--surface-ece9df:#29362e;
+--surface-ecefdf:#29362e;
+--surface-edf3e2:#29362e;
+--surface-eff2e5:#29362e;
+--surface-f0e3dd:#3c302c;
+--surface-f1eee0:#383426;
+--surface-f1f0e8:#29362e;
+--surface-f1f3e6:#29362e;
+--surface-f1f4e7:#29362e;
+--surface-f4ead6:#383426;
+--surface-f8f5ed:#242e29;
+--surface-f8f9ef:#242e29;
+--surface-faf8f0:#242e29;
+--surface-fcfbf4:#242e29;
+--surface-fff:#242e29;
+--surface-fff1de:#3c302c;
+--surface-fffdf5:#242e29;
+--surface-fffdf566:#383426;
+--surface-fffdf6:#242e29;
+--text-354d43:#e0e8dd;
+--text-354e40:#e0e8dd;
+--text-3b604c:#e0e8dd;
+--text-3c654c:#e0e8dd;
+--text-436956:#e0e8dd;
+--text-4b735c:#b4c6ad;
+--text-517647:#b4c6ad;
+--text-52694a:#e0e8dd;
+--text-547054:#b4c6ad;
+--text-5a7153:#b4c6ad;
+--text-5b7b4c:#b4c6ad;
+--text-5d7d51:#b4c6ad;
+--text-5e7852:#b4c6ad;
+--text-5f8455:#b4c6ad;
+--text-607c57:#b4c6ad;
+--text-61814d:#b4c6ad;
+--text-647f59:#b4c6ad;
+--text-65785f:#b4c6ad;
+--text-666e52:#b4c6ad;
+--text-6a7d65:#b4c6ad;
+--text-6c805b:#b4c6ad;
+--text-6c815b:#b4c6ad;
+--text-6e7b60:#b4c6ad;
+--text-72886a:#b4c6ad;
+--text-748078:#b4c6ad;
+--text-75915f:#b4c6ad;
+--text-778273:#b4c6ad;
+--text-77846e:#b4c6ad;
+--text-778766:#b4c6ad;
+--text-7b8c68:#b4c6ad;
+--text-7e8a68:#b4c6ad;
+--text-7e8c7d:#b4c6ad;
+--text-819071:#b4c6ad;
+--text-81916c:#b4c6ad;
+--text-83906f:#b4c6ad;
+--text-839079:#b4c6ad;
+--text-849077:#b4c6ad;
+--text-849277:#b4c6ad;
+--text-85876c:#b4c6ad;
+--text-859075:#b4c6ad;
+--text-859174:#b4c6ad;
+--text-87907f:#b4c6ad;
+--text-889177:#b4c6ad;
+--text-8a907c:#b4c6ad;
+--text-8a947f:#b4c6ad;
+--text-8b8e78:#b4c6ad;
+--text-8b917d:#b4c6ad;
+--text-8b967c:#b4c6ad;
+--text-8b977e:#b4c6ad;
+--text-8c6344:#ddb49d;
+--text-8d937f:#b4c6ad;
+--text-8e8d6a:#b4c6ad;
+--text-8e9c79:#b4c6ad;
+--text-8f9785:#b4c6ad;
+--text-90907b:#b4c6ad;
+--text-91a07b:#b4c6ad;
+--text-929b85:#b4c6ad;
+--text-959c89:#b4c6ad;
+--text-97a087:#b4c6ad;
+--text-9a9f8f:#b4c6ad;
+--text-9aa28a:#b4c6ad;
+--text-9b5d44:#ddb49d;
+--text-9da78e:#b4c6ad;
+--text-ae745c:#ddb49d;
+--text-fffaf0:#f1f2e9;
+}
+.appearance-bar{display:flex;justify-content:flex-end;padding:10px 0 0;}
+.theme-control{font:12px/1.5 system-ui,sans-serif;color:var(--muted);}
+.theme-control label{display:flex;align-items:center;gap:8px;}
+.theme-control select{font:inherit;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:18px;min-height:44px;padding:8px 12px;cursor:pointer;}
+.theme-control select:focus-visible{outline:3px solid #b58f52;outline-offset:3px;}
+.theme-control [role="status"]{display:block;max-width:280px;margin-top:6px;}
+:root[data-theme="dark"] .primary{background:#41644e;color:#f1f2e9;border-color:#729479;box-shadow:0 4px 0 #101713;}
+:root[data-theme="dark"] .primary:hover:not(:disabled){background:#4a7259;}
+:root[data-theme="dark"] .garden-art,:root[data-theme="dark"] .mountain-art{filter:brightness(.76) saturate(.75);}
+:root[data-theme="dark"] .brand-mark{background:#476c54;color:#f1f2e9;}
+:root[data-theme="dark"] .skip,:root[data-theme="dark"] .skip-link{background:#242e29;}
+:root[data-theme="dark"] input::placeholder{color:#aabca5;opacity:1;}
+:root[data-theme="dark"] :is(.nav-button.active,nav button.active,.group-tabs button.selected,.sound-tile.selected,.tone-select .selected,.lesson-tabs button.active,.game-settings button.selected){background:#344c3a;border-color:#7c9878;}
+:root[data-theme="dark"] :is(.path-card.recommended,.theme-card.next,.path-card.completed,.growth-chart button.grown){background:#2e4032;border-color:#76926f;}
+@media(max-width:760px){.theme-control{font-size:11px;}.appearance-bar{padding-top:8px;}}

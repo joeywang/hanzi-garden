@@ -1,0 +1,795 @@
+{
+  "commits": {
+    "chanind/hanzi-writer-data": "68d10a4b21150cae5e1ebbd223eed289cf32d90c",
+    "hugolpz/audio-cmn": "59dbafbda8b172ffc3b8b295cd5938ae1b3de803",
+    "chanind/hanzi-writer": "83a762374e2344f2fb8cceca4a2ac5dfeca386f5"
+  },
+  "audio_author": "Chen Wang",
+  "stroke_source": "Hanzi Writer Data / Make Me a Hanzi / Arphic Technology",
+  "files": [
+    {
+      "file": "strokes/一.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%80.json",
+      "bytes": 373,
+      "sha256": "ed728673d86fb9aa559c5b150e59ffbee666b085d4a55597c524079a91ebc8ce",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/二.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%BA%8C.json",
+      "bytes": 582,
+      "sha256": "24d4225b8514e5b169f44230ba38169f63e9d9875f31b478457841114dbe1faa",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/三.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%89.json",
+      "bytes": 732,
+      "sha256": "917763e15ac14a5ece5067913da4156f3060f33ae0e172d3533275a494cec99c",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/十.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%8D%81.json",
+      "bytes": 677,
+      "sha256": "257a0939af5742ca31a980adfa1421d0302d5e90491ab3215c1934bea9a59bef",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/人.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%BA%BA.json",
+      "bytes": 659,
+      "sha256": "18ffb9fb727576b0c3e7dc44914be7ffd43164de9ba121710824b83f27bd3bb1",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/口.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%8F%A3.json",
+      "bytes": 889,
+      "sha256": "ac208865e3166fc35214cec326f00a4b6788a8cac9b4c5a6a37745077e32ddab",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/日.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%97%A5.json",
+      "bytes": 1300,
+      "sha256": "5c6bad210149abac8bd645cb12b1394edea5681f224154c27f422134299520fb",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/月.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%9C%88.json",
+      "bytes": 1389,
+      "sha256": "441949321eb706def6e8d0c1eeca6b461141703dcc07619939a32d681e08fc46",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/水.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%B0%B4.json",
+      "bytes": 1389,
+      "sha256": "46e262a80f2b7da72ea04788d1c19c40339e18beaba16987cc84d55fc257c9e3",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/火.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%81%AB.json",
+      "bytes": 1137,
+      "sha256": "09fc0a54adb11753319f5750dcdc127698dfb8a453f1a57b5f11b6a1ee3c64e0",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/山.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%B1%B1.json",
+      "bytes": 977,
+      "sha256": "c1e58c4b20cba28ae9778dfb280a93dc18fdccd3ecbec00bece20ce739c9f459",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/石.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%9F%B3.json",
+      "bytes": 1374,
+      "sha256": "ee18a323fc63c0f4dd0f00477102c547a670c75ae2e3f38c9cb5b1985609b2b3",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/木.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%9C%A8.json",
+      "bytes": 1131,
+      "sha256": "2b5bb221b4403a303a567756304545a104d915117cc0f1b3fdea71e7928dfc50",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/林.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%9E%97.json",
+      "bytes": 2138,
+      "sha256": "dc5643ade9f4bdebed056743076e447c24cbb5767237bd71973c28ad17544162",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/竹.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%AB%B9.json",
+      "bytes": 1799,
+      "sha256": "038ede060ba5a500666f4c34051cdd760a3f7f122f04c4f4b040046a0a02e39d",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/禾.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%A6%BE.json",
+      "bytes": 1433,
+      "sha256": "74d7e9274a9b3d02fbb353f424a40988a3f8760bb9f465d834d048eceb7451ae",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/米.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%B1%B3.json",
+      "bytes": 1565,
+      "sha256": "105847e8be1741677145b1e7b7168ba883e9ca3ae1abb7b60a476d430117e88e",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/花.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E8%8A%B1.json",
+      "bytes": 2245,
+      "sha256": "62f0b92426131b634b393c90e1de91d8f5b321fcd6fc1d7e77a0bf8be5b90e18",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/天.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%A4%A9.json",
+      "bytes": 1228,
+      "sha256": "8cacde3b91b815c7c667e80e6d4838e3b7dc30ab457763e32d29c1586b0d2446",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/地.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%9C%B0.json",
+      "bytes": 2325,
+      "sha256": "ec1d89cb0ee0f4c93d546d561ea28b00f0378769c061ec5bf5f67381074765a3",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/土.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%9C%9F.json",
+      "bytes": 856,
+      "sha256": "f1f7bfa95a5821fa27573560d3c88552a9e70a3fd3816724cbd441b5c07d17ee",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/田.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%94%B0.json",
+      "bytes": 1582,
+      "sha256": "d2441470ac4a6c9ea680389bc770cb60f9c29b6819863ebcc39df2b89cea7f04",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/云.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%BA%91.json",
+      "bytes": 1159,
+      "sha256": "0282daa7428445909b110092a75d4e2fe44c5268403f67eac8080d0e8a8f6918",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/雨.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E9%9B%A8.json",
+      "bytes": 2342,
+      "sha256": "0e249bab348c40874b194b2ba75aa185961bd190ca2e09c9a4c303aa34f62e2c",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/大.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%A4%A7.json",
+      "bytes": 1034,
+      "sha256": "83c82950e903c915aa50d0d62b084a2d31c85fe68dce21e0acf39e2f9607e611",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/小.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%B0%8F.json",
+      "bytes": 830,
+      "sha256": "72bf769c8c3426bffa578502eb8b1532fb1e622ddb6f40ded04e484290c0fe8c",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/上.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%8A.json",
+      "bytes": 862,
+      "sha256": "9eed5643ff92171f9bf1ae5d4b70d717f2a3fd6961f72e81c0245ce13523d865",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/下.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%8B.json",
+      "bytes": 879,
+      "sha256": "34984a2541baae9132f32e3dfe758ca29df64829558dc5a1c553c3d3011da880",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/中.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%AD.json",
+      "bytes": 1387,
+      "sha256": "6982c8c16e7e7f769011edef0608289443711dbb34046dd9ca763e79ec29192f",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/多.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%A4%9A.json",
+      "bytes": 1858,
+      "sha256": "d7bc212fe60eaa766209b36e5e9642940892cf43b472accedaf55f517d8313dc",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/手.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%89%8B.json",
+      "bytes": 1358,
+      "sha256": "7964eac3bced473343f5741f98fea3eb2dd842eecd57ec20b4369912570964a7",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/足.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E8%B6%B3.json",
+      "bytes": 1809,
+      "sha256": "5261cef041c9bcca1db60469259e7f033ae7fc5a86b6a929ba5ddb15010e0742",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/目.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%9B%AE.json",
+      "bytes": 1554,
+      "sha256": "f5392f6be0cba05d57c6b9cdb111ad402415e57e886e491a18fbeda6d0206a6b",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/耳.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E8%80%B3.json",
+      "bytes": 1527,
+      "sha256": "87d23fce6860c1b5600982e241b3ed486e7bededf8d78a674c55ccd8479e4c10",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/心.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%BF%83.json",
+      "bytes": 1107,
+      "sha256": "24b00ca173bbf7403181af1a4f9414f3b9175ed04b17108055c7d9e3fe6d6215",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/力.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%8A%9B.json",
+      "bytes": 959,
+      "sha256": "c51740470368f15b32d3f8ee1d7b0c93b6aa92c015f286c27137adfb2d7844a3",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/爸.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%88%B8.json",
+      "bytes": 2529,
+      "sha256": "fa40233458f9a517bcfedea1595d348831af8f73be08fe45a9554b28c59de25c",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/妈.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%A6%88.json",
+      "bytes": 2577,
+      "sha256": "0b288b695765e1294ca2cbc2b463227b637047932ebdab2ff9cddba6c1d576b2",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/子.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%AD%90.json",
+      "bytes": 1366,
+      "sha256": "f5b7ff9aa3de64ec676e3f06e7c22795aa834eb11eec43b9423f355db5f46474",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/女.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%A5%B3.json",
+      "bytes": 1345,
+      "sha256": "8a17d3644493617f0090476873c0e01c25d83271e586c097e40ef0256ced5ac8",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/我.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%88%91.json",
+      "bytes": 2476,
+      "sha256": "08616462fc64b4c18c76a3f68a992305e98946f468bf42ec76ca9be1cd6c5ac8",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/你.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%BD%A0.json",
+      "bytes": 2106,
+      "sha256": "21057a26cb5c1753ea710d503b759cc17948263501ffd76ef1737cb2b5d5f966",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/牛.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%89%9B.json",
+      "bytes": 1271,
+      "sha256": "cb0c578ebb919ca2ad759cc8a79159f1eff623ae7f57dacca26a1bbbc523ab98",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/羊.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E7%BE%8A.json",
+      "bytes": 1627,
+      "sha256": "9f9f43158c9af7617b092a0f9946e3191fb206dced2aa5a3b19c180244362422",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/马.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E9%A9%AC.json",
+      "bytes": 1602,
+      "sha256": "451304b0187c080bcf62115dbd75f19f6306f44e955df59236484e13e031bfc5",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/鸟.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E9%B8%9F.json",
+      "bytes": 2056,
+      "sha256": "2d62bee9f3dce68cead54e04298b7ca9be109f8ebe9c59d356d2f89c38184a33",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/虫.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E8%99%AB.json",
+      "bytes": 1745,
+      "sha256": "7fe903f045c6a90e401b81b859f6aa78a833a62e862110331bfc6d8c0f9a7e2e",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "strokes/鱼.json",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E9%B1%BC.json",
+      "bytes": 2463,
+      "sha256": "1f1d05821b3338075b2bb7e29687b51a70945786556799e8700a200073ba18eb",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/ba4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-ba4.mp3",
+      "bytes": 8412,
+      "sha256": "84dacefee66455ce86eb7782f919d37669858b00eed8959a0ae4da9fc6c5a220",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/chong2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-chong2.mp3",
+      "bytes": 9186,
+      "sha256": "49575501e963566c5fd4156562e899b51b75e72c9d95087d576a5dcade8d3c9e",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/da4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-da4.mp3",
+      "bytes": 8028,
+      "sha256": "033350136f17ce98a81fad8bc8a15d26510b0578e2055e8e9ad9c721a81c844e",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/di4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-di4.mp3",
+      "bytes": 8412,
+      "sha256": "e823aa5989e503b613ef45249a1c0b49da35d7784241b0de582ecf2d4a876785",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/duo1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-duo1.mp3",
+      "bytes": 8798,
+      "sha256": "6bc28fd710ac3877014f8d563800c1a779d1417fa20e7f450b1c6d4a09e0a062",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/er3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-er3.mp3",
+      "bytes": 10332,
+      "sha256": "2b577d166ea6cdf4b7f137c8ab37765128844ce7d23903e915199303cf3f3252",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/er4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-er4.mp3",
+      "bytes": 8028,
+      "sha256": "708278953eff64ad7da0d5e711bc881744a9bb4fd6e2f622656ced7a0f68302f",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/he2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-he2.mp3",
+      "bytes": 9564,
+      "sha256": "010a2aee776cf3001be63b6f8d997cbcf72d0ed0e6b311640202ba31ed9b0201",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/hua1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-hua1.mp3",
+      "bytes": 9950,
+      "sha256": "c2f5249f29efa8beec3178cfd2919951ac2dab49184b2d1a03c607ea1b79fe2e",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/huo3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-huo3.mp3",
+      "bytes": 12062,
+      "sha256": "b328045401f14acad9d7119fddc1b06dc2dc8862df3415ebe2369f5a3f5e5f62",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/kou3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-kou3.mp3",
+      "bytes": 10334,
+      "sha256": "5127b7991ea5d030f9f329e5e462e60db482257cf793f5c2ca2c238d1600113a",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/li4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-li4.mp3",
+      "bytes": 9180,
+      "sha256": "22977f2045d2c622d026aff7920c4f35444d7cef7ed1ee7f53bf3f6ae5e6c369",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/lin2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-lin2.mp3",
+      "bytes": 9950,
+      "sha256": "2c381c9d5577ac7e85ef977e4d5e11a999c815b909e15cdd46957677e6f6eee9",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/ma1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-ma1.mp3",
+      "bytes": 9180,
+      "sha256": "6a3194446f891fceb224d2a2497c284203566a2859cc7e0ac2fe4060be69ec3f",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/ma3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-ma3.mp3",
+      "bytes": 12060,
+      "sha256": "43facf87d5b0c09c132f80dc2ed44f7dfc8821588594a318f962c01f02b65fc9",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/mi3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-mi3.mp3",
+      "bytes": 11676,
+      "sha256": "a318c39ec6096a6625bd1d4f64d990b7669f1825bad9e5d921d9ca94b3d75a6f",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/mu4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-mu4.mp3",
+      "bytes": 9180,
+      "sha256": "ce16b52e705e0af16716b617ad5319aa14f164d63f48846f1028de89ad319666",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/ni3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-ni3.mp3",
+      "bytes": 11292,
+      "sha256": "0cdb538793b73cdd13273e2ca9198179cd712272af87afc89647b63146f94f3b",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/niao3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-niao3.mp3",
+      "bytes": 10720,
+      "sha256": "5e4498cf55b8d31952092f012e073312e7e20b083617c7f25c9fedbf6e1c1f31",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/niu2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-niu2.mp3",
+      "bytes": 9182,
+      "sha256": "ca6e666dec153055a79912daadec5bf367f218db9329ea649c6d0ef60c4d7049",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/nv3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-nv3.mp3",
+      "bytes": 12060,
+      "sha256": "2e74d8629b77f70ac96f1c803b974bfc03030ae30212f38f328bd12fd3d46cc3",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/ren2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-ren2.mp3",
+      "bytes": 9566,
+      "sha256": "ed8bddda616a3e30cbe0d2bf44263896f1211b8ca700f1dcd69bbe233e2916a0",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/ri4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-ri4.mp3",
+      "bytes": 9180,
+      "sha256": "1dd1a2b34d9d06801e40953f5c57104a6d43ad9f67d01f5b891702c3465366a5",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/san1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-san1.mp3",
+      "bytes": 10334,
+      "sha256": "c4251f33b5e34a8d8aa5e6f9cf8e8ff0639828d9f14fcde3dd6be75426fe19a1",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/shan1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-shan1.mp3",
+      "bytes": 10336,
+      "sha256": "e2b39c9bba85923a1a83cd98e0d72e45707013f80b8c84a5939a06fb584fba0d",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/shang4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-shang4.mp3",
+      "bytes": 10722,
+      "sha256": "4409935c306a488dd778d33426b37a5770e7a42a9d799c8a91ce6739e9f48b7c",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/shi2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-shi2.mp3",
+      "bytes": 10718,
+      "sha256": "49c925abf9a95291662ad0ec5ff8ce07dbb668f0bf4b2d0926f5a4241f3bc723",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/shou3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-shou3.mp3",
+      "bytes": 12064,
+      "sha256": "f22f86ba44fc41211bfa7393513ddd965df25b14cd4fc4b3bb49c23709ec1f98",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/shui3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-shui3.mp3",
+      "bytes": 11680,
+      "sha256": "0fba720c0b492453ee0c7785104ed25a65f52b8d6e031bd718a6805eb48d3876",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/tian1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-tian1.mp3",
+      "bytes": 10720,
+      "sha256": "9f9b78aef55a384eb04729e8944c425d30c8541f19680a7beaf99f63679a969f",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/tian2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-tian2.mp3",
+      "bytes": 8416,
+      "sha256": "ec5a7c95487f089a2c6db4436e3ad25ca7c797fb33451a55608129c5fe0998d0",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/tu3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-tu3.mp3",
+      "bytes": 11676,
+      "sha256": "756a4e1203acd57624fe77ff5e7f5f8d4459c72354b019584fcf5a148d4068bf",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/wo3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-wo3.mp3",
+      "bytes": 10716,
+      "sha256": "61ce3c6ada9917323c13b758275374f2918fb54477ce85ae0d9c39c176205890",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/xia4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-xia4.mp3",
+      "bytes": 9950,
+      "sha256": "1fa9a08f742215bd7ad4a4916458910712fa038208fce97ea0fc372d13c49ccf",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/xiao3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-xiao3.mp3",
+      "bytes": 12832,
+      "sha256": "4c66859e2e487a1f2882a28953e3167e9b8e9077855dd7f251b13034f6b3025d",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/xin1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-xin1.mp3",
+      "bytes": 11294,
+      "sha256": "3be9866e41ddcbc14cd16e1277df2ee4e9013daacfa62dfc9445e5a20bb217db",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/yang2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-yang2.mp3",
+      "bytes": 8800,
+      "sha256": "54f41c38fdc1836b3b537de16ec121971741125ab2449b076f11c49c73ac9e9b",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/yi1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-yi1.mp3",
+      "bytes": 9180,
+      "sha256": "36540ca523dcddcfd1f09e59f1386f576dfe4142cd22494e49d82b604ca045c6",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/yu2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-yu2.mp3",
+      "bytes": 8412,
+      "sha256": "9bafcc3cff6e321cc58aa07565a1d910c97f118a61f72a02b23c7e1c3029d03b",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/yu3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-yu3.mp3",
+      "bytes": 10332,
+      "sha256": "8d00c3b3aac9aa8feae034acd66fec25c57103eadf8ab8a93cea412ec6320fec",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/yue4.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-yue4.mp3",
+      "bytes": 8798,
+      "sha256": "7a69bb511c0a1031814a8b35e98298e6818c95bf07d653f720bef65681c7bb3d",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/yun2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-yun2.mp3",
+      "bytes": 10334,
+      "sha256": "9239fe5ef6f1937b95cc0db82afebaf2d336369b790f8e01b6b1ac41c930e495",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/zhong1.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-zhong1.mp3",
+      "bytes": 9570,
+      "sha256": "67a855a9d381d38af81a31e041b1472abf1641c07da869a8c05c883f4b5319f8",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/zhu2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-zhu2.mp3",
+      "bytes": 8798,
+      "sha256": "1ae2395c48b0422dfa53aa2d49daf59305a7e3ffe48ded54d7d6abe011f1883b",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/zi3.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-zi3.mp3",
+      "bytes": 12444,
+      "sha256": "36aacd8910791241fdbd372aa3a0a693d1e7144a56a741e1f264e72919308f65",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "audio/zu2.mp3",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/64k/syllabs/cmn-zu2.mp3",
+      "bytes": 9564,
+      "sha256": "ebeccc8545c73840bc5d17912aa2265b77df33607632b0ea9f414bae210f1394",
+      "license": "CC-BY-SA; upstream version unspecified; Chen Wang",
+      "modifications": "None"
+    },
+    {
+      "file": "credits/ARPHICPL.TXT",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/ARPHICPL.TXT",
+      "bytes": 6900,
+      "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328",
+      "license": "Arphic Public License",
+      "modifications": "None"
+    },
+    {
+      "file": "credits/stroke-data-README.md",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/README.md",
+      "bytes": 2480,
+      "sha256": "e682a6485ca67834f6c5e360c56c4918d91b2f74aafaba5903f047eb1c0753f5",
+      "license": "Provenance",
+      "modifications": "None"
+    },
+    {
+      "file": "credits/HANZI-WRITER-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer/83a762374e2344f2fb8cceca4a2ac5dfeca386f5/LICENSE",
+      "bytes": 1079,
+      "sha256": "7735d83cdf892c8db41c27103b42c89b4b63149770c1e08ae13cbbebb81da637",
+      "license": "MIT",
+      "modifications": "None"
+    },
+    {
+      "file": "credits/audio-README.md",
+      "source": "https://raw.githubusercontent.com/hugolpz/audio-cmn/59dbafbda8b172ffc3b8b295cd5938ae1b3de803/README.md",
+      "bytes": 3015,
+      "sha256": "dc2d92441be58c9c6fa8892b8dd5ed7d628eec046f408b0ab8db4bdd9fd24200",
+      "license": "Provenance",
+      "modifications": "None"
+    }
+  ]
+}

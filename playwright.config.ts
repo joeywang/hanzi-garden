@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'e2e',workers:1,use:{colorScheme:process.env.TEST_COLOR_SCHEME==='dark'?'dark':'light',baseURL:process.env.HANZI_TEST_URL||'http://127.0.0.1:4186',launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--no-sandbox']},viewport:{width:1440,height:1000}},webServer:process.env.HANZI_TEST_URL?undefined:{command:'npm run preview -- --port 4186 --strictPort',url:'http://127.0.0.1:4186',reuseExistingServer:false}});

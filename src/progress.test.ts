@@ -1,0 +1,3 @@
+import {it,expect} from 'vitest';import {parseProgress,addCharacter,emptyProgress} from './progress';
+it('rejects broken or out-of-scope saved data',()=>{expect(parseProgress('invalid')).toEqual(emptyProgress);expect(parseProgress('{"seen":["一","一","错"],"written":["鱼"],"rounds":-2}')).toEqual({seen:['一'],written:['鱼'],rounds:0});});
+it('records exploration and writing separately and idempotently',()=>{let p=addCharacter(emptyProgress,'seen','一');p=addCharacter(p,'seen','一');expect(p.seen).toEqual(['一']);expect(p.written).toEqual([]);expect(addCharacter(p,'written','一').written).toEqual(['一']);});

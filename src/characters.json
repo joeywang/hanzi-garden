@@ -1,0 +1,674 @@
+[
+  {
+    "hanzi": "一",
+    "pinyin": "yī",
+    "audio": "yi1",
+    "meaning": "one",
+    "radical": "一",
+    "sentence": "我有一个小书包。",
+    "emoji": "🌱",
+    "tip": "从左向右写一横。",
+    "words": [
+      "一个",
+      "一天"
+    ]
+  },
+  {
+    "hanzi": "二",
+    "pinyin": "èr",
+    "audio": "er4",
+    "meaning": "two",
+    "radical": "二",
+    "sentence": "二月到了。",
+    "emoji": "✌️",
+    "tip": "先写上面短的一横，再写下面长的一横。",
+    "words": [
+      "二月",
+      "二人"
+    ]
+  },
+  {
+    "hanzi": "三",
+    "pinyin": "sān",
+    "audio": "san1",
+    "meaning": "three",
+    "radical": "一",
+    "sentence": "三只小鸟飞来了。",
+    "emoji": "☘️",
+    "tip": "三横之间留一点空，最后一横最长。",
+    "words": [
+      "三人",
+      "三天"
+    ]
+  },
+  {
+    "hanzi": "十",
+    "pinyin": "shí",
+    "audio": "shi2",
+    "meaning": "ten",
+    "radical": "十",
+    "sentence": "这里有十个苹果。",
+    "emoji": "🔟",
+    "tip": "先横后竖，在中间交叉。",
+    "words": [
+      "十个",
+      "十月"
+    ]
+  },
+  {
+    "hanzi": "人",
+    "pinyin": "rén",
+    "audio": "ren2",
+    "meaning": "person",
+    "radical": "人",
+    "sentence": "大人和孩子一起读书。",
+    "emoji": "🧍",
+    "tip": "先撇后捺，两笔互相支撑。",
+    "words": [
+      "人们",
+      "大人"
+    ]
+  },
+  {
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "audio": "kou3",
+    "meaning": "mouth",
+    "radical": "口",
+    "sentence": "小鸟开口唱歌。",
+    "emoji": "💬",
+    "tip": "先写竖，再写横折，最后封口。",
+    "words": [
+      "人口",
+      "开口"
+    ]
+  },
+  {
+    "hanzi": "日",
+    "pinyin": "rì",
+    "audio": "ri4",
+    "meaning": "sun; day",
+    "radical": "日",
+    "sentence": "我们一起看日出。",
+    "emoji": "☀️",
+    "tip": "先外后内，最后写下面的横。",
+    "words": [
+      "日子",
+      "日出"
+    ]
+  },
+  {
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "audio": "yue4",
+    "meaning": "moon; month",
+    "radical": "月",
+    "sentence": "月亮出来了。",
+    "emoji": "🌙",
+    "tip": "看一看弯钩和里面两横的位置。",
+    "words": [
+      "月亮",
+      "月光"
+    ]
+  },
+  {
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "audio": "shui3",
+    "meaning": "water",
+    "radical": "水",
+    "sentence": "运动以后要喝水。",
+    "emoji": "💧",
+    "tip": "先写中间的竖钩，再看两边的笔画。",
+    "words": [
+      "水果",
+      "喝水"
+    ]
+  },
+  {
+    "hanzi": "火",
+    "pinyin": "huǒ",
+    "audio": "huo3",
+    "meaning": "fire",
+    "radical": "火",
+    "sentence": "小小的火苗亮起来了。",
+    "emoji": "🔥",
+    "tip": "两边的点和撇在前，注意最后一捺。",
+    "words": [
+      "火山",
+      "火苗"
+    ]
+  },
+  {
+    "hanzi": "山",
+    "pinyin": "shān",
+    "audio": "shan1",
+    "meaning": "mountain",
+    "radical": "山",
+    "sentence": "高山上有一朵云。",
+    "emoji": "⛰️",
+    "tip": "先写中间的竖，三条竖并不一样高。",
+    "words": [
+      "山上",
+      "高山"
+    ]
+  },
+  {
+    "hanzi": "石",
+    "pinyin": "shí",
+    "audio": "shi2",
+    "meaning": "stone",
+    "radical": "石",
+    "sentence": "我捡到一颗小石子。",
+    "emoji": "🪨",
+    "tip": "上面一横要平，下面的口要稳。",
+    "words": [
+      "石头",
+      "石子"
+    ]
+  },
+  {
+    "hanzi": "木",
+    "pinyin": "mù",
+    "audio": "mu4",
+    "meaning": "tree; wood",
+    "radical": "木",
+    "sentence": "树木慢慢长高了。",
+    "emoji": "🌳",
+    "tip": "先横后竖，再写撇和捺。",
+    "words": [
+      "木头",
+      "树木"
+    ]
+  },
+  {
+    "hanzi": "林",
+    "pinyin": "lín",
+    "audio": "lin2",
+    "meaning": "grove",
+    "radical": "木",
+    "sentence": "树林里有许多小鸟。",
+    "emoji": "🌲",
+    "tip": "左右两个木，左边的捺变成点。",
+    "words": [
+      "树林",
+      "林中"
+    ]
+  },
+  {
+    "hanzi": "竹",
+    "pinyin": "zhú",
+    "audio": "zhu2",
+    "meaning": "bamboo",
+    "radical": "竹",
+    "sentence": "熊猫爱吃竹子。",
+    "emoji": "🎋",
+    "tip": "左右两部分，从左边开始写。",
+    "words": [
+      "竹子",
+      "竹林"
+    ]
+  },
+  {
+    "hanzi": "禾",
+    "pinyin": "hé",
+    "audio": "he2",
+    "meaning": "grain plant",
+    "radical": "禾",
+    "sentence": "禾苗在田里长大。",
+    "emoji": "🌾",
+    "tip": "先写上面的撇，再写下面的木。",
+    "words": [
+      "禾苗",
+      "禾田"
+    ]
+  },
+  {
+    "hanzi": "米",
+    "pinyin": "mǐ",
+    "audio": "mi3",
+    "meaning": "rice",
+    "radical": "米",
+    "sentence": "今天的米饭真香。",
+    "emoji": "🍚",
+    "tip": "先写点和撇，再把中间写稳。",
+    "words": [
+      "大米",
+      "米饭"
+    ]
+  },
+  {
+    "hanzi": "花",
+    "pinyin": "huā",
+    "audio": "hua1",
+    "meaning": "flower",
+    "radical": "艹",
+    "sentence": "小花开花了。",
+    "emoji": "🌸",
+    "tip": "先写上面的草字头，再写下面。",
+    "words": [
+      "花朵",
+      "开花"
+    ]
+  },
+  {
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "audio": "tian1",
+    "meaning": "sky; day",
+    "radical": "大",
+    "sentence": "今天的天空很蓝。",
+    "emoji": "🌤️",
+    "tip": "先写两横，再写下面的撇和捺。",
+    "words": [
+      "天空",
+      "今天"
+    ]
+  },
+  {
+    "hanzi": "地",
+    "pinyin": "dì",
+    "audio": "di4",
+    "meaning": "ground; earth",
+    "radical": "土",
+    "sentence": "春天的大地绿了。",
+    "emoji": "🌍",
+    "tip": "左边土字旁，右边写也。",
+    "words": [
+      "土地",
+      "大地"
+    ]
+  },
+  {
+    "hanzi": "土",
+    "pinyin": "tǔ",
+    "audio": "tu3",
+    "meaning": "soil",
+    "radical": "土",
+    "sentence": "泥土里藏着一颗种子。",
+    "emoji": "🪴",
+    "tip": "先横后竖，最后的横要托住上面。",
+    "words": [
+      "泥土",
+      "土地"
+    ]
+  },
+  {
+    "hanzi": "田",
+    "pinyin": "tián",
+    "audio": "tian2",
+    "meaning": "field",
+    "radical": "田",
+    "sentence": "水田里长着禾苗。",
+    "emoji": "🟩",
+    "tip": "先外后内，最后一横把田封好。",
+    "words": [
+      "田地",
+      "水田"
+    ]
+  },
+  {
+    "hanzi": "云",
+    "pinyin": "yún",
+    "audio": "yun2",
+    "meaning": "cloud",
+    "radical": "二",
+    "sentence": "白云在天空中飘。",
+    "emoji": "☁️",
+    "tip": "先写上面的两横，再写下面。",
+    "words": [
+      "白云",
+      "云朵"
+    ]
+  },
+  {
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "audio": "yu3",
+    "meaning": "rain",
+    "radical": "雨",
+    "sentence": "下雨了，小草喝到了水。",
+    "emoji": "🌧️",
+    "tip": "看清里面四个点的位置。",
+    "words": [
+      "下雨",
+      "雨水"
+    ]
+  },
+  {
+    "hanzi": "大",
+    "pinyin": "dà",
+    "audio": "da4",
+    "meaning": "big",
+    "radical": "大",
+    "sentence": "大山的旁边有小河。",
+    "emoji": "🐘",
+    "tip": "先横，再撇，最后一捺要舒展。",
+    "words": [
+      "大人",
+      "大山"
+    ]
+  },
+  {
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "audio": "xiao3",
+    "meaning": "small",
+    "radical": "小",
+    "sentence": "小鸟在树上唱歌。",
+    "emoji": "🐣",
+    "tip": "先写中间的竖钩，再撇，最后写点。",
+    "words": [
+      "小手",
+      "小鸟"
+    ]
+  },
+  {
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "audio": "shang4",
+    "meaning": "up; above",
+    "radical": "一",
+    "sentence": "小猫在桌子上面。",
+    "emoji": "⬆️",
+    "tip": "先竖，再短横，最后写长横。",
+    "words": [
+      "上面",
+      "上山"
+    ]
+  },
+  {
+    "hanzi": "下",
+    "pinyin": "xià",
+    "audio": "xia4",
+    "meaning": "down; below",
+    "radical": "一",
+    "sentence": "小狗在桌子下面。",
+    "emoji": "⬇️",
+    "tip": "先写长横，再竖，最后写点。",
+    "words": [
+      "下面",
+      "下雨"
+    ]
+  },
+  {
+    "hanzi": "中",
+    "pinyin": "zhōng",
+    "audio": "zhong1",
+    "meaning": "middle",
+    "radical": "丨",
+    "sentence": "小树站在花园中间。",
+    "emoji": "🎯",
+    "tip": "先写扁扁的口，再写中间的竖。",
+    "words": [
+      "中间",
+      "中国"
+    ]
+  },
+  {
+    "hanzi": "多",
+    "pinyin": "duō",
+    "audio": "duo1",
+    "meaning": "many",
+    "radical": "夕",
+    "sentence": "花园里有许多花。",
+    "emoji": "✨",
+    "tip": "上下两个夕，注意互相让一让。",
+    "words": [
+      "多少",
+      "许多"
+    ]
+  },
+  {
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "audio": "shou3",
+    "meaning": "hand",
+    "radical": "手",
+    "sentence": "我用双手搭积木。",
+    "emoji": "🖐️",
+    "tip": "先撇，再写两横，最后写竖钩。",
+    "words": [
+      "小手",
+      "双手"
+    ]
+  },
+  {
+    "hanzi": "足",
+    "pinyin": "zú",
+    "audio": "zu2",
+    "meaning": "foot",
+    "radical": "足",
+    "sentence": "我和朋友一起踢足球。",
+    "emoji": "🦶",
+    "tip": "先写上面的口，再写下面。",
+    "words": [
+      "足球",
+      "手足"
+    ]
+  },
+  {
+    "hanzi": "目",
+    "pinyin": "mù",
+    "audio": "mu4",
+    "meaning": "eye",
+    "radical": "目",
+    "sentence": "我的目光跟着小鸟走。",
+    "emoji": "👀",
+    "tip": "先外后内，最后封口。",
+    "words": [
+      "目光",
+      "耳目"
+    ]
+  },
+  {
+    "hanzi": "耳",
+    "pinyin": "ěr",
+    "audio": "er3",
+    "meaning": "ear",
+    "radical": "耳",
+    "sentence": "我的耳朵听见了鸟叫。",
+    "emoji": "👂",
+    "tip": "看清两竖和几横的位置。",
+    "words": [
+      "耳朵",
+      "木耳"
+    ]
+  },
+  {
+    "hanzi": "心",
+    "pinyin": "xīn",
+    "audio": "xin1",
+    "meaning": "heart",
+    "radical": "心",
+    "sentence": "今天我很开心。",
+    "emoji": "💛",
+    "tip": "先写左边的点，再写卧钩和两点。",
+    "words": [
+      "开心",
+      "小心"
+    ]
+  },
+  {
+    "hanzi": "力",
+    "pinyin": "lì",
+    "audio": "li4",
+    "meaning": "strength",
+    "radical": "力",
+    "sentence": "我用力把小车推上坡。",
+    "emoji": "💪",
+    "tip": "先写横折钩，再写撇。",
+    "words": [
+      "力气",
+      "用力"
+    ]
+  },
+  {
+    "hanzi": "爸",
+    "pinyin": "bà",
+    "audio": "ba4",
+    "meaning": "dad",
+    "radical": "父",
+    "sentence": "爸爸和我一起看书。",
+    "emoji": "👨",
+    "tip": "先写上面的父，再写下面的巴。",
+    "words": [
+      "爸爸",
+      "老爸"
+    ]
+  },
+  {
+    "hanzi": "妈",
+    "pinyin": "mā",
+    "audio": "ma1",
+    "meaning": "mum",
+    "radical": "女",
+    "sentence": "妈妈教我认识汉字。",
+    "emoji": "👩",
+    "tip": "左边是女字旁，右边是马。",
+    "words": [
+      "妈妈",
+      "爸妈"
+    ]
+  },
+  {
+    "hanzi": "子",
+    "pinyin": "zǐ",
+    "audio": "zi3",
+    "meaning": "child",
+    "radical": "子",
+    "sentence": "父母关心自己的子女。",
+    "emoji": "🧒",
+    "tip": "先看弯钩的方向，最后写一横。",
+    "words": [
+      "子女",
+      "子孙"
+    ]
+  },
+  {
+    "hanzi": "女",
+    "pinyin": "nǚ",
+    "audio": "nv3",
+    "meaning": "female; woman",
+    "radical": "女",
+    "sentence": "女孩在花园里画画。",
+    "emoji": "👧",
+    "tip": "先撇点，再撇，最后一横穿过去。",
+    "words": [
+      "女孩",
+      "女儿"
+    ]
+  },
+  {
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "audio": "wo3",
+    "meaning": "I; me",
+    "radical": "戈",
+    "sentence": "我们一起学汉字。",
+    "emoji": "🙋",
+    "tip": "跟着笔顺慢慢写，注意斜钩。",
+    "words": [
+      "我们",
+      "自我"
+    ]
+  },
+  {
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "audio": "ni3",
+    "meaning": "you",
+    "radical": "亻",
+    "sentence": "你好，很高兴认识你。",
+    "emoji": "👋",
+    "tip": "先写单人旁，再写右边。",
+    "words": [
+      "你好",
+      "你们"
+    ]
+  },
+  {
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "audio": "niu2",
+    "meaning": "cow; ox",
+    "radical": "牛",
+    "sentence": "小牛在草地上吃草。",
+    "emoji": "🐮",
+    "tip": "先撇，再写两横，最后写竖。",
+    "words": [
+      "小牛",
+      "牛奶"
+    ]
+  },
+  {
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "audio": "yang2",
+    "meaning": "sheep; goat",
+    "radical": "羊",
+    "sentence": "小羊在山坡上吃草。",
+    "emoji": "🐑",
+    "tip": "先写上面的点和撇，最后写竖。",
+    "words": [
+      "小羊",
+      "山羊"
+    ]
+  },
+  {
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "audio": "ma3",
+    "meaning": "horse",
+    "radical": "马",
+    "sentence": "小马在草地上跑。",
+    "emoji": "🐴",
+    "tip": "看清两个转折，最后写一横。",
+    "words": [
+      "小马",
+      "马车"
+    ]
+  },
+  {
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "audio": "niao3",
+    "meaning": "bird",
+    "radical": "鸟",
+    "sentence": "小鸟飞上了树枝。",
+    "emoji": "🐦",
+    "tip": "不要忘记里面的一点。",
+    "words": [
+      "小鸟",
+      "飞鸟"
+    ]
+  },
+  {
+    "hanzi": "虫",
+    "pinyin": "chóng",
+    "audio": "chong2",
+    "meaning": "insect",
+    "radical": "虫",
+    "sentence": "小虫在叶子上爬。",
+    "emoji": "🐛",
+    "tip": "先写口和竖，再写提和点。",
+    "words": [
+      "小虫",
+      "虫子"
+    ]
+  },
+  {
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "audio": "yu2",
+    "meaning": "fish",
+    "radical": "鱼",
+    "sentence": "小鱼在水里游来游去。",
+    "emoji": "🐟",
+    "tip": "从上往下写，最后一横要平。",
+    "words": [
+      "小鱼",
+      "金鱼"
+    ]
+  }
+]
