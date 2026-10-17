@@ -37,11 +37,15 @@ Recordings are unmodified syllables by Chen Wang, from `hugolpz/audio-cmn`. Sour
 
 ## Interest-led activities for roughly ages 8–10
 
-The original beginner curriculum remains available. New activities add two word/sentence games (12 word clues and 8 four-part sentence puzzles) and a reading library of eight original short texts in three difficulty bands. Each article has three text-grounded comprehension checks, optional glossary pinyin, word explanations, larger text, evidence hints and an open-ended discussion prompt.
+The original beginner curriculum remains available. New activities add two word/sentence games (12 word clues and 8 four-part sentence puzzles) and a reading library of eight original short texts in three difficulty bands. Each article has three text-grounded comprehension checks, switchable full-article ruby pinyin and glossary pinyin, word explanations, larger text, evidence hints and an open-ended discussion prompt.
 
 Reading difficulty is not an official school grade or assessment. Article completion means completing that article's practice questions, including assisted retries; it does not certify reading mastery. No full-article audio is supplied or claimed. Sentence puzzles explicitly practise one prompted word order, not every possible grammatical formulation.
 
 Reading and challenge records use separate versioned local-storage keys without rewriting existing beginner progress. Wrong answers can be retried; hints and rereading have no penalty. There are no timers, rankings or recorded discussion answers. The parent reset clears the new records as well. Browser tests read and complete all eight articles, every word/sentence puzzle and the new mobile/dark flows.
+
+## Regenerate reading annotations
+
+Run `npm run generate:reading-pinyin` after editing article titles or body text, then review contextual pronunciations and run the tests. The pinned generator is a development-only dependency; it produces static `src/reading-pinyin.json`. Tests reject stale annotations and verify contextual readings such as 还书、系好、长高、安静地、只画下. The article pinyin switch shows/hides actual ruby annotations in the title/body as well as the glossary, without changing answers or progress. No dictionary or external pinyin service is loaded at runtime.
 
 ## Learning limitations
 
