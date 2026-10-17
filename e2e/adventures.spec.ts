@@ -4,7 +4,14 @@ for(const story of stories){
  test(`read and understand: ${story.title}`,async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:'阅读探险',exact:true}).click();
   await page.getByRole('button',{name:`阅读：${story.title}`}).click();
-  await expect(page.getByRole('article',{name:story.title})).toContainText(story.paragraphs[0]);
+  const article=page.getByRole('article',{name:story.title});
+  const hanCount=([...story.title,...story.paragraphs.join('')].filter(char=>/\p{Script=Han}/u.test(char))).length;
+  await expect(article.locator('ruby rt')).toHaveCount(hanCount);
+  await page.getByRole('button',{name:'文章拼音 开',exact:true}).click();
+  await expect(article.locator('rt')).toHaveCount(0);
+  await expect(article).toContainText(story.paragraphs[0]);
+  await page.getByRole('button',{name:'文章拼音 关',exact:true}).click();
+  await expect(article.locator('ruby rt')).toHaveCount(hanCount);
   expect(await page.evaluate(()=>localStorage.getItem('hanzi-reading-v1'))).toBeNull();
   await page.getByRole('button',{name:`第1题：${story.questions[0].options.find(x=>x!==story.questions[0].answer)}`}).click();
   await expect(page.getByText('再读一读线索，你可以重新选择。')).toBeVisible();
@@ -39,7 +46,7 @@ test('reading filters, text tools, keyboard choices and mobile dark layouts',asy
  await page.getByRole('searchbox',{name:'搜索阅读文章'}).fill('');
  await page.getByRole('button',{name:'阅读：去月亮的车票'}).click();
  await page.getByRole('button',{name:'大字阅读',exact:true}).click();await expect(page.getByRole('article')).toHaveClass(/large-reading/);
- await page.getByRole('button',{name:'词语拼音 开'}).click();await expect(page.getByText('yín sè',{exact:true})).toHaveCount(0);
+ await page.getByRole('button',{name:'文章拼音 开'}).click();await expect(page.getByText('yín sè',{exact:true})).toHaveCount(0);
  const first=page.getByRole('button',{name:`第1题：${stories[0].questions[0].answer}`});await first.focus();await page.keyboard.press('Enter');await expect(first).toHaveAttribute('aria-pressed','true');
  for(const mode of ['light','dark']){
   await page.getByRole('combobox',{name:'显示主题'}).selectOption(mode);
@@ -56,4 +63,17 @@ test('a parent reset is reflected by another open reading tab',async({page,conte
  await expect(page.getByText(/完成阅读小问题：1 \/ 8/)).toBeVisible();
  await other.getByRole('button',{name:'家长指南 ↗',exact:true}).click();other.once('dialog',dialog=>dialog.accept());await other.getByRole('button',{name:'清除本机学习记录',exact:true}).click();
  await expect(page.getByText(/完成阅读小问题：0 \/ 8/)).toBeVisible();expect(await page.evaluate(()=>localStorage.getItem('hanzi-reading-v1'))).toBeNull();await other.close();
+});
+
+test('article pinyin switches visibly without changing answers or reading progress',async({page})=>{
+ await page.goto('/');await page.getByRole('button',{name:'阅读探险',exact:true}).click();await page.getByRole('button',{name:'阅读：去月亮的车票'}).click();
+ const first=page.getByRole('button',{name:`第1题：${stories[0].questions[0].answer}`});await first.click();
+ for(const mode of ['light','dark']){
+  await page.getByRole('combobox',{name:'显示主题'}).selectOption(mode);
+  for(const width of [360,390,768,1440]){await page.setViewportSize({width,height:950});await expect(page.locator('#reading-article ruby rt').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
+  await page.setViewportSize({width:390,height:844});await page.screenshot({path:`screenshots/reading-body-pinyin-on-${mode}.png`,fullPage:true});
+  await page.getByRole('button',{name:'文章拼音 开',exact:true}).click();await expect(page.locator('#reading-article rt')).toHaveCount(0);await expect(first).toHaveAttribute('aria-pressed','true');
+  await page.screenshot({path:`screenshots/reading-body-pinyin-off-${mode}.png`,fullPage:true});await page.getByRole('button',{name:'文章拼音 关',exact:true}).click();
+ }
+ expect(await page.evaluate(()=>localStorage.getItem('hanzi-reading-v1'))).toBeNull();
 });

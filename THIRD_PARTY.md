@@ -10,6 +10,10 @@ Stroke data: Hanzi Writer Data / Make Me a Hanzi / Arphic Technology, Arphic Pub
 
 Hanzi Writer 3.7.3: MIT. Full license: [public/credits/HANZI-WRITER-LICENSE.txt](public/credits/HANZI-WRITER-LICENSE.txt).
 
+## Reading annotations
+
+Article ruby annotations are generated at development time with `pinyin-pro` 3.29.5 (MIT), plus explicit contextual pronunciation corrections. The full dictionary is not shipped in the browser bundle; no external pronunciation API is called. The generated data preserves the original Hanzi and punctuation. The upstream notice is included in [public/credits/PINYIN-PRO-LICENSE.txt](public/credits/PINYIN-PRO-LICENSE.txt). Automated annotation and editorial corrections are not native-teacher sign-off.
+
 ## JavaScript dependencies
 
 Dependencies retain their package licenses. Exact versions and provenance are in `package-lock.json`; review package license files when redistributing. React is MIT-licensed. This document does not replace upstream licenses.
