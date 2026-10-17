@@ -49,3 +49,11 @@ test('reading filters, text tools, keyboard choices and mobile dark layouts',asy
  await page.getByRole('button',{name:'识字乐园',exact:true}).click();await page.getByRole('button',{name:'开始句子工坊'}).click();
  await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'screenshots/word-workshop-mobile-dark.png',fullPage:true});
 });
+
+test('a parent reset is reflected by another open reading tab',async({page,context})=>{
+ await page.goto('/');await page.getByRole('button',{name:'阅读探险',exact:true}).click();
+ const other=await context.newPage();await other.goto('/');await other.evaluate(()=>localStorage.setItem('hanzi-reading-v1','["moon-ticket"]'));
+ await expect(page.getByText(/完成阅读小问题：1 \/ 8/)).toBeVisible();
+ await other.getByRole('button',{name:'家长指南 ↗',exact:true}).click();other.once('dialog',dialog=>dialog.accept());await other.getByRole('button',{name:'清除本机学习记录',exact:true}).click();
+ await expect(page.getByText(/完成阅读小问题：0 \/ 8/)).toBeVisible();expect(await page.evaluate(()=>localStorage.getItem('hanzi-reading-v1'))).toBeNull();await other.close();
+});

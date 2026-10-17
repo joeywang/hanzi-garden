@@ -9,7 +9,7 @@ export default function WordGames(){
  const [tokens,setTokens]=useState<number[]>([]);const [order,setOrder]=useState<number[]>([]);
  const [choices,setChoices]=useState<string[]>([]);
  const {badges,award,saveError}=useBadges('hanzi-word-games-v1',['words','sentences']);
- function prepare(type:Mode,index:number){setRound(index);setCorrect(false);setFeedback('');setOrder([]);if(type==='words')setChoices(shuffle(wordPuzzles[index].options));else setTokens(shuffle([0,1,2,3]));}
+ function prepare(type:Mode,index:number){setRound(index);setCorrect(false);setFeedback('');setOrder([]);if(type==='words')setChoices(shuffle(wordPuzzles[index].options));else {const mixed=shuffle([0,1,2,3]);setTokens(mixed.every((value,i)=>value===i)?[1,2,3,0]:mixed);}}
  function start(type:Mode){setMode(type);setDone(false);prepare(type,0);}
  const total=mode==='words'?wordPuzzles.length:sentencePuzzles.length;
  function next(){if(!mode||!correct)return;if(round===total-1){setDone(true);award(mode);}else prepare(mode,round+1);}

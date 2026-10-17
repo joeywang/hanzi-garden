@@ -10,3 +10,5 @@ it('has twelve unambiguous word puzzles and eight sentence puzzles',()=>{
  for(const p of wordPuzzles){expect(p.prompt).toContain('□');expect(p.options).toContain(p.answer);expect(p.options).toHaveLength(3);expect(p.clue.length).toBeGreaterThan(5);}
  for(const p of sentencePuzzles){expect(p.chunks).toHaveLength(4);expect(new Set(p.chunks).size).toBe(4);expect(p.sentence).toBe(p.chunks.join(''));}
 });
+
+it('avoids dictionary variants as wrong choices and keeps clues from spelling an option',()=>{const p=wordPuzzles.find(x=>x.prompt==='想□')!;expect(p.options).not.toContain('像');expect(wordPuzzles.find(x=>x.prompt==='合□')!.options).not.toContain('做');for(const puzzle of wordPuzzles)for(const option of puzzle.options)expect(puzzle.clue).not.toContain(option);});
